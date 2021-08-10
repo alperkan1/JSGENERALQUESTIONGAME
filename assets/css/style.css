@@ -13,7 +13,7 @@ body {
 }
 /* colors for the right answer and wrog asnwer*/
 :root {
-    --hue-neutral: 400;
+    --hue-neutral: 240;
     --hue-correct: 140;
     --hue-wrong: 10;
 }
@@ -35,30 +35,68 @@ body {
 }
 /*buttom styling*/
 .btn {
-    background-color: slategray;
+    --hue: var(--hue-neutral);
     border-radius: 5px;
     padding: 5px 10px;
     outline: none;
     color: snow;
     font-weight: bold;
     font-family: roboto;
+    background-color: hsl(var(--hue), 60%, 60%);
+    font-size: 20px;
+ 
 }
 
 .btn:hover {
     border-color: black;
 }
 
-.btn .right{
+.btn.right{
     --hue: var(--hue-correct);
+    color: black;
+    font-size: 30px;
+    
 }
-.btn .wrong{
+.btn.wrong{
     --hue: var(--hue-wrong); 
+    color: black;
+    
 }
 
-body .right {
+body.right {
     --hue: var(--hue-correct);
+    font-size: 20px;
+   
 }
 
-body .wrong {
+body.wrong {
     --hue: var(--hue-wrong);
+    
+}
+
+.forward-btn,.begin-btn {
+    font-size: 40px;
+    padding:10px 10px;
+    
+
+}
+
+.command{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.none{
+    display: none;
+}
+
+
+
+
+
+#quiz{
+    font-size:40px;
+    text-align:center;
 }
