@@ -16,6 +16,7 @@ body {
     --hue-neutral: 530;
     --hue-correct: 140;
     --hue-wrong: 10;
+    --hue-btns:570;
 }
 /* contaner for the questions*/
 .box {
@@ -23,8 +24,9 @@ body {
     max-width: 80%;
     background: darkgrey;
     border-radius: 7px;
-    padding: 10px;
+    padding: 15px;
     box-shadow: 0 0 10px 4px;
+
 }
 
 .btn-ans {
@@ -32,10 +34,12 @@ body {
     grid-template-columns: repeat(2, auto);
     padding: 10px;
     gap: 5px;
+    margin: 20px 30px;
+    
 }
 /*buttom styling*/
 .btn {
-    --hue: var(--hue-neutral);
+    --hue: var(--hue-btns);
     border-radius: 5px;
     padding: 5px 10px;
     outline: none;
@@ -85,11 +89,13 @@ body.wrong {
     display: flex;
     justify-content: center;
     align-items: center;
+    
    
 }
 
 .none{
-    display: none;
+    
+    
 }
 
 
