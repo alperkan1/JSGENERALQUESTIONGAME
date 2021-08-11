@@ -13,7 +13,7 @@ body {
 }
 /* colors for the right answer and wrog asnwer*/
 :root {
-    --hue-neutral: 240;
+    --hue-neutral: 530;
     --hue-correct: 140;
     --hue-wrong: 10;
 }
