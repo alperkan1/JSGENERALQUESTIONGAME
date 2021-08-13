@@ -1,7 +1,10 @@
-const 
-const randomquiz, quest
 const strBtn = document.getElementById("start")
+const nctBtn = document.getElementById("forward-btn")
 const quizBox = document.getElementById("question-box")
+const questE = document.getElementById("quiz")
+const ansBtne = document.getElementById("ans-btn")
+
+let randomquiz, quest
 
 strBtn.addEventListener("click", beginGame)
 
