@@ -1,3 +1,20 @@
+#username {
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+
+} 
+#username input {
+    border: 5px inset ;
+    padding: 0;
+    margin: 10px;
+    font-size: 20px;
+    background: rgb(121, 119, 119);
+    color:white;
+    text-align:center;
+    text-transform: uppercase;
+}
+
 body {
     font-family: fantasy, roboto, sans-serif;
     box-sizing: border-box;
