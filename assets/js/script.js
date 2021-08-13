@@ -1,5 +1,5 @@
 const strBtn = document.getElementById("start")
-const nctBtn = document.getElementById("forward-btn")
+const nctBtn = document.getElementById("forward")
 const quizBox = document.getElementById("question-box")
 const questE = document.getElementById("quiz")
 const ansBtne = document.getElementById("ans-btn")
@@ -25,24 +25,62 @@ function username(){
 }
 
 function addNextQuest() {
+    resetPage()
     VisualQ(randomquiz[quest])
 }
-/**show the question */
+/**show the question and answer */
 function VisualQ(question) {
     questE.innerText=question.question
+    question.answer.forEach(answer => {
+        const button = document.createElement("button")
+        button.innerText = answer.text
+        button.classList.add('btn')
+        if (answer.correct){
+            button.dataset.correct = answer.correct
+        }
+        button.addEventListener("click", selectAns)
+        ansBtne.appendChild(button)
+
+                
+    })
 
 
 }
 
+function resetPage (){
+   
+    nctBtn.classList.add("none")
+    while (ansBtne.firstChild)
+    {
+        ansBtne.removeChild(ansBtne.firstChild)
+    }
+}
 function forwardQuiz() {
 
 
 }
 
-function selectAns() {
-
+function selectAns(e) {
+const selectBtn = e.target
+const ans1 = selectBtn.dataset.correct
+setClass(document.body, ans1)
+Array.from(ansBtne.children).forEach (button => {steClass(button, dataset.correct)})
 
 }
+
+function  setClass (element, correct) {
+    clearClass(Element)
+    if (correct) {
+        element.classList.add("correct")
+
+    }else{ element.classList.add("wrong")
+}
+}
+function clearClass (element){
+    element.classList.remove("correct")
+    element.classList.remove("wrong")
+}
+
 
 /** Questions for the quize */
 
@@ -52,7 +90,7 @@ const question = [{
         {text:"Ankara", correct: true},
         {text:"Istanbul", correct: false},
         {text:"Adana", correct: false},
-        {tetx:"Antalya", correct:false}
+        {text:"Antalya", correct:false}
     ]
 },
 {  
@@ -61,7 +99,7 @@ const question = [{
         {text:"Athens", correct: true},
         {text:"Prague", correct: false},
         {text:"Rome", correct: false},
-        {tetx:"Vienna", correct:false}
+        {text:"Vienna", correct:false}
     ] 
 
 },{
@@ -70,7 +108,7 @@ const question = [{
         {text:"A nerve in the brain.", correct: false},
         {text:"A multi-axled car.", correct: false},
         {text:"A type of mortice lock.", correct: false},
-        {tetx:"A species of salamander.", correct:true}
+        {text:"A species of salamander.", correct:true}
     ]
 },{
     question:"The Panama Canal was officially opened by which US president",
@@ -78,7 +116,7 @@ const question = [{
         {text:"Calvin Coolidge", correct: false},
         {text:"Herbert Hoover", correct: false},
         {text:"Theodore Roosevelt", correct: false},
-        {tetx:"Woodrow Wilson", correct:true}
+        {text:"Woodrow Wilson", correct:true}
     ]
 },
 {
@@ -87,7 +125,7 @@ const question = [{
         {text:"Carmen", correct: false},
         {text:"Tosca", correct: true},
         {text:"Madame Butterfly", correct: false},
-        {tetx:"La Boheme", correct:false}
+        {text:"La Boheme", correct:false}
     ]
 },
 {
@@ -96,7 +134,7 @@ const question = [{
         {text:"Enoch", correct: true},
         {text:"Jubal", correct: false},
         {text:"Lamech", correct: false},
-        {tetx:"Zillah", correct:false}
+        {text:"Zillah", correct:false}
     ]
 },
 {
@@ -104,8 +142,8 @@ const question = [{
     answer:[
         {text:"Cleveland", correct: false},
         {text:"Buffalo", correct: false},
-        {text:"Cleveland", correct: false},
-        {tetx:"Toledo", correct:true}
+        {text:"New York", correct: false},
+        {text:"Toledo", correct:true}
     ]
 },
 {
@@ -114,7 +152,7 @@ const question = [{
         {text:"Antelope", correct: true},
         {text:"Bird", correct: false},
         {text:"Jewish settlement", correct: false},
-        {tetx:"Climbing plant", correct:false}
+        {text:"Climbing plant", correct:false}
     ]
 },
 {
@@ -123,7 +161,7 @@ const question = [{
         {text:"Campbell", correct: false},
         {text:"MacGregor", correct: true},
         {text:"MacLeod", correct: false},
-        {tetx:"MacDonald", correct:false}
+        {text:"MacDonald", correct:false}
     ]
 },
 {
@@ -132,7 +170,7 @@ const question = [{
         {text:"Ecuador", correct: true},
         {text:"Peru", correct: false},
         {text:"Portugal", correct: false},
-        {tetx:"Spain", correct:false}
+        {text:"Spain", correct:false}
     ]
 }
 ]

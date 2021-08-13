@@ -15,24 +15,27 @@
 
 <body>
     <div class="box">
-        <div id="username">USERNAME:
-            <input type="text"></div>
+        <div id="username">
+            <form method="get" id="form1"></form>
+            <label for="username">USERNAME:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
         <div class="none" id="question-box">
             <div id="quiz"> QUESTION</div>
             <div id="ans-btn" class="btn-ans">
-             <button class="btn">ANSWER 1 </button> 
-             <button class="btn">ANSWER 2 </button> 
-             <button class="btn">ANSWER 3 </button> 
-             <button class="btn">ANSWER 4 </button>   
+                <button class="btn">ANSWER 1 </button>
+                <button class="btn">ANSWER 2 </button>
+                <button class="btn">ANSWER 3 </button>
+                <button class="btn">ANSWER 4 </button>
             </div>
-            </div>
+        </div>
         <div class="command">
-                <button id="start" class="begin-btn btn">START</button>
-                <button id="forward" class="forward-btn btn none">FORWARD</button>
+            <button id="start" class="begin-btn btn" type="submit"  value="submit">START</button>
+            <button id="forward" class="forward-btn btn none">FORWARD</button>
         </div>
-        </div>
+    </div>
 
-        <script src="assets/js/script.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
