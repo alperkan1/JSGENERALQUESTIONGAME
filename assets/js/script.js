@@ -20,7 +20,7 @@ addNextQuest()
 function addNextQuest() {
     VisualQ(randomquiz[quest])
 }
-
+/**show the question */
 function VisualQ(question) {
     questE.innerText=question.question
 
