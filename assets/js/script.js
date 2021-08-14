@@ -54,11 +54,11 @@ function selectAns(e) {
         {
             setClass(button, button.dataset.correct)
         })
-
+        nctBtn.classList.remove("none")
 }
 
 function setClass(element, correct) {
-    clearClass(Element)
+    clearClass(element)
     if (correct) {
         element.classList.add("correct")
 
