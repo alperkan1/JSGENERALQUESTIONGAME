@@ -40,6 +40,7 @@ function VisualQ(question) {
         button.classList.add('btn')
         if (answer.correct) {
             button.dataset.correct = answer.correct
+           
         }
         button.addEventListener("click", selectAns)
         ansBtne.appendChild(button)
@@ -55,9 +56,11 @@ function selectAns(e) {
 
         {
             setClass(button, button.dataset.correct)
+         
         })
         if (randomquiz.length > quest + 1) {
         nctBtn.classList.remove("none")  
+        
         } else{
             strBtn.innerText="RESTART"
             strBtn.classList.remove("none")  
@@ -68,9 +71,10 @@ function setClass(element, correct) {
     clearClass(element)
     if (correct) {
         element.classList.add("correct")
-
-    } else {
+        
+        } else {
         element.classList.add("wrong")
+        
     }
 }
 /** clear class to find the answer */
@@ -88,15 +92,10 @@ function resetPage() {
 
     }
 }
-/**forward button making it work */
-function forwardQuiz() {
-
-
+function incrementScore() {
+	let oldScore =parseInt(document.getElementById("score").innerText);
+    document.getElementById("score").innerText = ++oldScore
 }
-
-
-
-
 /** Questions for the quize */
 
 const question = [{
