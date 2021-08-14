@@ -8,7 +8,11 @@ const userName = document.getElementById("username")
 let randomquiz, quest
 
 strBtn.addEventListener("click", beginGame)
+nctBtn.addEventListener("click", () =>{
+    quest++
+    addNextQuest()
 
+} )
 
 //* the start button starting the game**//
 function beginGame() {
@@ -20,16 +24,14 @@ function beginGame() {
     addNextQuest()
 
 }
+/**entering the username */
 
-function username() {
-
-}
-
+/** Moving to the next question and chooising random question from 10 questions so its not always the same questions */
 function addNextQuest() {
     resetPage()
     VisualQ(randomquiz[quest])
 }
-/**show the question and answer */
+/**show the question and answer  */
 function VisualQ(question) {
     questE.innerText = question.question
     question.answer.forEach(answer => {
@@ -44,7 +46,7 @@ function VisualQ(question) {
 
     })
 }
-
+/**selecting and showing the correct answer and the resrat button */
 function selectAns(e) {
     const selectBtn1 = e.target
     const correct = selectBtn1.dataset.correct
@@ -54,9 +56,14 @@ function selectAns(e) {
         {
             setClass(button, button.dataset.correct)
         })
-        nctBtn.classList.remove("none")
+        if (randomquiz.length > quest + 1) {
+        nctBtn.classList.remove("none")  
+        } else{
+            strBtn.innerText="RESTART"
+            strBtn.classList.remove("none")  
+        }
 }
-
+/** find the correct answer */
 function setClass(element, correct) {
     clearClass(element)
     if (correct) {
@@ -66,21 +73,22 @@ function setClass(element, correct) {
         element.classList.add("wrong")
     }
 }
-
+/** clear class to find the answer */
 function clearClass(element) {
     element.classList.remove("correct")
     element.classList.remove("wrong")
 }
 
+/**Page reset to and show forward Button */
 function resetPage() {
-
+    clearClass(document.body)
     nctBtn.classList.add("none")
     while (ansBtne.firstChild) {
         ansBtne.removeChild(ansBtne.firstChild)
 
     }
 }
-
+/**forward button making it work */
 function forwardQuiz() {
 
 
