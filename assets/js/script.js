@@ -65,7 +65,7 @@ function selectAns(e) {
         } else{
             strBtn.innerText="RESTART"
             strBtn.classList.remove("none")  
-        }
+            document.getElementById("score").innerText = 0   }
 }
 /** find the correct answer */
 function setClass(element, correct) {
