@@ -4,9 +4,10 @@ const quizBox = document.getElementById("question-box")
 const questE = document.getElementById("quiz")
 const ansBtne = document.getElementById("ans-btn")
 const userName = document.getElementById("username")
+const score = document.getElementById("scores")
 
 let randomquiz, quest
-
+score.classList.add("none")    
 strBtn.addEventListener("click", beginGame)
 nctBtn.addEventListener("click", () =>{
     quest++
@@ -21,6 +22,7 @@ function beginGame() {
     quest = 0
     quizBox.classList.remove("none")
     userName.classList.add("none")
+    score.classList.remove("none")  
     addNextQuest()
 
 }
