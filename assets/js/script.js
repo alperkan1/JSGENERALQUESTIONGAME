@@ -40,6 +40,7 @@ function VisualQ(question) {
         button.classList.add('btn')
         if (answer.correct) {
             button.dataset.correct = answer.correct
+            
            
         }
         button.addEventListener("click", selectAns)
@@ -56,7 +57,7 @@ function selectAns(e) {
 
         {
             setClass(button, button.dataset.correct)
-         
+          
         })
         if (randomquiz.length > quest + 1) {
         nctBtn.classList.remove("none")  
@@ -71,7 +72,7 @@ function setClass(element, correct) {
     clearClass(element)
     if (correct) {
         element.classList.add("correct")
-        
+        incrementScore()
         } else {
         element.classList.add("wrong")
         
@@ -93,8 +94,9 @@ function resetPage() {
     }
 }
 function incrementScore() {
-	let oldScore =parseInt(document.getElementById("score").innerText);
-    document.getElementById("score").innerText = ++oldScore
+   	let score = parseInt(document.getElementById("score").innerText);
+    document.getElementById("score").innerText = ++score
+   
 }
 /** Questions for the quize */
 
