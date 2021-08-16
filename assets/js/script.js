@@ -26,6 +26,7 @@ function beginGame() {
     ansBtne.classList.remove("none")
     questE.classList.remove("none")
     document.getElementById("score").innerText = 0
+    score.removeAttribute('style')
     addNextQuest()
 
 }
@@ -35,6 +36,7 @@ function beginGame() {
 function addNextQuest() {
     resetPage()
     VisualQ(randomquiz[quest])
+    ansBtne.removeAttribute('style') 
 }
 /**show the question and answer  */
 function VisualQ(question) {
@@ -64,6 +66,7 @@ function selectAns(e) {
 
     } else {
         score.style.fontSize="40px"
+        score.style.textAlign="center"
         ansBtne.classList.add("none")
         questE.classList.add("none")
         strBtn.innerText = "RESTART"
@@ -77,6 +80,7 @@ function setClass(element, correct) {
     clearClass(element)
     if (correct) {
         element.classList.add("correct")
+        ansBtne.style.backgroundColor="green"
         incrementScore()
     } else {
         element.classList.add("wrong")
