@@ -23,6 +23,7 @@ function beginGame() {
     quizBox.classList.remove("none")
     userName.classList.add("none")
     score.classList.remove("none")  
+    document.getElementById("score").innerText = 0   
     addNextQuest()
 
 }
@@ -66,12 +67,14 @@ function selectAns(e) {
         
         } else{
             strBtn.innerText="RESTART"
-            strBtn.classList.remove("none")  
-            document.getElementById("score").innerText = 0   }
+            strBtn.classList.remove("none") 
+            
+        }
 }
 /** find the correct answer */
 function setClass(element, correct) {
     clearClass(element)
+    console.log(correct)
     if (correct) {
         element.classList.add("correct")
         incrementScore()
