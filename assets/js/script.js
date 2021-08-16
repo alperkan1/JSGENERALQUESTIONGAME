@@ -23,6 +23,8 @@ function beginGame() {
     quizBox.classList.remove("none")
     userName.classList.add("none")
     score.classList.remove("none")
+    ansBtne.classList.remove("none")
+    questE.classList.remove("none")
     document.getElementById("score").innerText = 0
     addNextQuest()
 
@@ -43,8 +45,6 @@ function VisualQ(question) {
         button.classList.add('btn')
         if (answer.correct) {
             button.dataset.correct = answer.correct
-
-
         }
         button.addEventListener("click", selectAns)
         ansBtne.appendChild(button)
@@ -55,27 +55,26 @@ function VisualQ(question) {
 function selectAns(e) {
     const selectBtn1 = e.target
     const correct = selectBtn1.dataset.correct
-    setClass(document.body, correct)
-    Array.from(ansBtne.children).forEach(button =>
+    
+        setClass(selectBtn1, selectBtn1.dataset.correct)
+    
 
-        {
-            setClass(button, button.dataset.correct)
-
-        })
     if (randomquiz.length > quest + 1) {
         nctBtn.classList.remove("none")
 
     } else {
-        quizBox.classList.add("none")
+        score.style.fontSize="40px"
+        ansBtne.classList.add("none")
+        questE.classList.add("none")
         strBtn.innerText = "RESTART"
         strBtn.classList.remove("none")
+        
 
     }
 }
 /** find the correct answer */
 function setClass(element, correct) {
     clearClass(element)
-    console.log(correct)
     if (correct) {
         element.classList.add("correct")
         incrementScore()
