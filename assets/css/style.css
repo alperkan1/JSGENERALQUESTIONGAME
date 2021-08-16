@@ -4,7 +4,10 @@
     font-size: 20px;
 
 } 
-#username input {
+
+
+
+#fname {
     border: 5px inset ;
     padding: 0;
     margin: 10px;
@@ -13,7 +16,22 @@
     color:white;
     text-align:center;
     text-transform: uppercase;
+    font-style: bold;
 }
+
+#sub{
+    --hue: var(--hue-btns);
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
+    color: snow;
+    font-weight: bold;
+    font-family: roboto;
+    background-color: hsl(var(--hue), 60%, 60%);
+    font-size: 20px;
+
+}
+
 
 body {
     font-family: fantasy, roboto, sans-serif;
