@@ -10,14 +10,19 @@ const userName = document.getElementById("form1")
 let randomquiz, quest
 
 score.classList.add("none")
-
+strBtn.classList.add("none")
 userName.addEventListener('submit', getFormDetails)
 strBtn.addEventListener("click", beginGame)
 nctBtn.addEventListener("click", () => {
     quest++
-    addNextQuest()
-
+    //addNextQuest()
+    
 })
+
+function register(){
+    strBtn.classList.remove("none")
+    strBtn.addEventListener("click", beginGame)
+}
 
 //* the start button starting the game**//
 function beginGame() {
@@ -42,7 +47,9 @@ function getFormDetails(event) {
     let name = document.getElementById('fname');
         
     document.getElementById('name').textContent = name.value;
-    alert("username submited thank you")
+    alert("username submited thank")
+    userName.classList.add("none")
+    register()
     
 }
 
