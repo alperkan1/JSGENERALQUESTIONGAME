@@ -5,17 +5,18 @@ const questE = document.getElementById("quiz")
 const ansBtne = document.getElementById("ans-btn")
 const score = document.getElementById("scores")
 const userName = document.getElementById("form1")
-
+const uName = document.getElementById("uName")
 
 let randomquiz, quest
 
 score.classList.add("none")
 strBtn.classList.add("none")
+uName.classList.add("none")
 userName.addEventListener('submit', getFormDetails)
 strBtn.addEventListener("click", beginGame)
 nctBtn.addEventListener("click", () => {
     quest++
-    //addNextQuest()
+    addNextQuest()
     
 })
 
@@ -29,6 +30,7 @@ function beginGame() {
     strBtn.classList.add("none")
     randomquiz = question.sort(() => Math.random() - .5)
     quest = 0
+    uName.classList.remove("none")
     quizBox.classList.remove("none")
     userName.classList.add("none")
     score.classList.remove("none")
@@ -36,6 +38,7 @@ function beginGame() {
     questE.classList.remove("none")
     document.getElementById("score").innerText = 0
     score.removeAttribute('style')
+    uName.removeAttribute("style")
     addNextQuest()
 
 }
@@ -47,7 +50,7 @@ function getFormDetails(event) {
     let name = document.getElementById('fname');
         
     document.getElementById('name').textContent = name.value;
-    alert("username submited thank")
+    alert("username Registered")
     userName.classList.add("none")
     register()
     
@@ -86,6 +89,8 @@ function selectAns(e) {
         nctBtn.classList.remove("none")
 
     } else {
+        uName.style.fontSize="40px"
+        uName.style.textAlign="center"
         score.style.fontSize="40px"
         score.style.textAlign="center"
         ansBtne.classList.add("none")
