@@ -7,13 +7,13 @@ const userName = document.getElementById("username")
 const score = document.getElementById("scores")
 
 let randomquiz, quest
-score.classList.add("none")    
+score.classList.add("none")
 strBtn.addEventListener("click", beginGame)
-nctBtn.addEventListener("click", () =>{
+nctBtn.addEventListener("click", () => {
     quest++
     addNextQuest()
 
-} )
+})
 
 //* the start button starting the game**//
 function beginGame() {
@@ -22,8 +22,8 @@ function beginGame() {
     quest = 0
     quizBox.classList.remove("none")
     userName.classList.add("none")
-    score.classList.remove("none")  
-    document.getElementById("score").innerText = 0   
+    score.classList.remove("none")
+    document.getElementById("score").innerText = 0
     addNextQuest()
 
 }
@@ -43,8 +43,8 @@ function VisualQ(question) {
         button.classList.add('btn')
         if (answer.correct) {
             button.dataset.correct = answer.correct
-            
-           
+
+
         }
         button.addEventListener("click", selectAns)
         ansBtne.appendChild(button)
@@ -60,16 +60,17 @@ function selectAns(e) {
 
         {
             setClass(button, button.dataset.correct)
-          
+
         })
-        if (randomquiz.length > quest + 1) {
-        nctBtn.classList.remove("none")  
-        
-        } else{
-            strBtn.innerText="RESTART"
-            strBtn.classList.remove("none") 
-            
-        }
+    if (randomquiz.length > quest + 1) {
+        nctBtn.classList.remove("none")
+
+    } else {
+        quizBox.classList.add("none")
+        strBtn.innerText = "RESTART"
+        strBtn.classList.remove("none")
+
+    }
 }
 /** find the correct answer */
 function setClass(element, correct) {
@@ -78,9 +79,9 @@ function setClass(element, correct) {
     if (correct) {
         element.classList.add("correct")
         incrementScore()
-        } else {
+    } else {
         element.classList.add("wrong")
-        
+
     }
 }
 /** clear class to find the answer */
@@ -98,10 +99,11 @@ function resetPage() {
 
     }
 }
+
 function incrementScore() {
-   	let score = parseInt(document.getElementById("score").innerText);
+    let score = parseInt(document.getElementById("score").innerText);
     document.getElementById("score").innerText = ++score
-   
+
 }
 /** Questions for the quize */
 
