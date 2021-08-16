@@ -3,11 +3,15 @@ const nctBtn = document.getElementById("forward")
 const quizBox = document.getElementById("question-box")
 const questE = document.getElementById("quiz")
 const ansBtne = document.getElementById("ans-btn")
-const userName = document.getElementById("username")
 const score = document.getElementById("scores")
+const userName = document.getElementById("form1")
+
 
 let randomquiz, quest
+
 score.classList.add("none")
+
+userName.addEventListener('submit', getFormDetails)
 strBtn.addEventListener("click", beginGame)
 nctBtn.addEventListener("click", () => {
     quest++
@@ -31,6 +35,16 @@ function beginGame() {
 
 }
 /**entering the username */
+function getFormDetails(event) {
+    
+    event.preventDefault();
+    
+    let name = document.getElementById('fname');
+        
+    document.getElementById('name').textContent = name.value;
+    alert("username submited thank you")
+    
+}
 
 /** Moving to the next question and chooising random question from 10 questions so its not always the same questions */
 function addNextQuest() {
