@@ -105,6 +105,7 @@ function selectAns(e) {
 function setClass(element, correct) {
     clearClass(element)
     if (correct) {
+        alert("CONGRADULATIONS")
         element.classList.add("correct")
         ansBtne.style.backgroundColor="green"
         incrementScore()
