@@ -1,9 +1,26 @@
+
+
+
 #username {
     text-align: center;
     margin: 20px;
     font-size: 20px;
 
 } 
+
+#b404 {
+    background-color: black;
+}
+
+#c404 {
+    color: white;
+    font-size: 110px;
+    text-align: center;
+}
+
+#h404 {
+    text-align: center;
+}    
 
 
 
@@ -142,4 +159,54 @@ display: none;
     font-size:40px;
     text-align:center;
     
+}
+/*with smaller screen */
+@media screen and (max-width: 550px) {
+    #c404 {
+        
+        font-size: 300%;
+    }
+    #fname{
+        margin: 0;
+        padding: 0;
+    }
+    .box {
+        width: 100%;
+        max-width: 80%;
+        background: darkgrey;
+        border-radius: 1px;
+        padding: 0px;
+    } 
+    #fname {
+        
+        width: 200px;
+        margin: 20px 0;
+       
+    }
+
+    #sub{
+        
+        font-size: 15px;
+    
+    }
+
+    .btn {
+        
+        font-size: 15px;
+     
+    }
+    .command{
+        text-align: center;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+    #quiz{
+        font-size:20px;
+               
+    }
+
+    #uName , #scores{
+        text-align: center;
+    }
+
 }
