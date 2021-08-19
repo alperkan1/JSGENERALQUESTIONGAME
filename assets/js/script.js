@@ -6,6 +6,7 @@ const ansBtne = document.getElementById("ans-btn")
 const score = document.getElementById("scores")
 const userName = document.getElementById("form1")
 const uName = document.getElementById("uName")
+var sound;
 
 let randomquiz, quest
 
@@ -19,6 +20,12 @@ nctBtn.addEventListener("click", () => {
     addNextQuest()
     
 })
+
+function preload() {
+soundFormats('mp3', 'ogg');
+sound = loadSound("assets/sound/sound.mp3");
+
+}
 
 function register(){
     strBtn.classList.remove("none")
