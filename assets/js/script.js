@@ -6,7 +6,8 @@ const ansBtne = document.getElementById("ans-btn")
 const score = document.getElementById("scores")
 const userName = document.getElementById("form1")
 const uName = document.getElementById("uName")
-var audio = new Audio("assets/sound/sound.mp3");
+var audio = new Audio("assets/sound/sound.mp3")
+var wrong = new Audio("assets/sound/wrong.mp3")
 
 
 let randomquiz, quest
@@ -20,7 +21,7 @@ nctBtn.addEventListener("click", () => {
     quest++
     addNextQuest()
     
-})
+}) 
 
 
 
@@ -109,13 +110,13 @@ function selectAns(e) {
 function setClass(element, correct) {
     clearClass(element)
     if (correct) {
-        alert("CONGRADULATIONS")
         element.classList.add("correct")
         ansBtne.style.backgroundColor="green"
         incrementScore()
+        audio.play()
     } else {
         element.classList.add("wrong")
-
+        wrong.play()
     }
 }
 /** clear class to find the answer */
