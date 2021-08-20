@@ -266,21 +266,21 @@ Google Lighthouse was used to speed test for mobile devices and for destop. All 
 #### Mobile device
 
 <details><summary>Home</summary>
-<img src="documents//Speedtest/indexspeedm.JPG">
+<img src="documents//speedtest/indexspeedm.JPG">
 </details> 
 
 <details><summary>404</summary>
-<img src="documents/Speedtest/404speedm.JPG">
+<img src="documents/speedtest/404speedm.JPG">
 </details> 
 
 #### Desktop
 
 <details><summary>Home</summary>
-<img src="documents//Speedtest/indexspeed.JPG">
+<img src="documents//speedtest/indexspeed.JPG">
 </details> 
 
 <details><summary>404</summary>
-<img src="documents/Speedtest/404speed.JPG">
+<img src="documents/speedtest/404speed.JPG">
 </details> 
 
 ### v. Testing on Devices
