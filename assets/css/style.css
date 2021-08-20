@@ -32,7 +32,7 @@
     color: white;
     text-align: center;
     text-transform: uppercase;
-    font-style: bold;
+    font:bold;
 }
 
 /**Styling for the submit**/
