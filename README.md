@@ -95,25 +95,25 @@
 - Responsive to all devices sizes.
 - Visually pleasing design and layout.
 - To be abe to register a username and get a allert to state that the usernam has been registered.
-- To change the code easily to have new quetions.
+- To change the code easily to have new questions.
 
 ## 2. Aims
 
 ### i. User Aims
 
-- Finding a community of like-minded of plane spotters in Dublin.
-- To share images of aircraft at Dublin Airport.
-- To get up to date information.
-- To find the best plane spotting locations.
-- To give my feedback.
+- To b able to test peoples general knowledge.
+- Have the ability to change the questions depending on the clients requirments .
+- To have easly readable text and scores.
+- Quick navigation from question to question.
+- To get feedback visually and by audio if you got the answer right or wrong.
 
 ### ii. Site Creater Aims
 
-- To connect like minded users.
-- To create a database of contact information and feedback.
-- To create a database of images that may be shared or sold.
-- To find new locations.
-- To share one-off experiences with others.
+- To be able to register a username.
+- To to be able to get a score at the end to see how wel i did.
+- To have the questions in a different order every time you play.
+- To have questions that are easly changed.
+- To for the user to have enought fun to want to come back and beat their last score.
 
 ## 3. UX
 
