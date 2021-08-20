@@ -53,49 +53,49 @@
 
 ### i. Target User
 
-- Plane spotters to meet and share their experiences.
-- A site for people to share their aeronautical images with the potenial of selling them.
-- Plane spotters looking to get the most up to date flight information.
-- Helping plane spotters to locate the best spotting locations.
-- People interested in unique and exclusive experiences at Dublin Airport.
+- A site for people to use to educate staff about a product via questions that they can choose and change.
+- A fun site for general knowledge game.
+- It is for people who are competitive and like to win.
+- For people to play with others.
+- For people who like a intrative game.
 
 
 ### ii. User Stories
 
 #### First Time User 
 
-- As a first time user, I want to be able to see other users photos.
-- As a first time user, I want to be able to locate the best locations for plane spotting at Dublin Airport.
-- As a first time user, I want to get the most up to date flight information.
-- As a first time user, I want to find the social media links for the the comunity.
-- As a first time user, I want to be able to give my feed back.
-- As a first time user, I want to be able to contact the society.
+- As a first time user, I want to be able answers question and be notified if correct or not.
+- As a first time user, I want to be able register my username.
+- As a first time user, I want to be able to re play with questions in a different squince.
+- As a first time user, I want to be able to get my score.
+- As a first time user, I want to be able to see visually if the answers are correct or not.
+- As a first time user, I want to be able to hear if my answers are correct or not..
 
 #### Returning User
 
-- As a returing user, I want to be able to get the updated schedules for flights arriving and departing from Dublin Airport.
-- As a returing user, I want to be able to see new images from existing and new members.
-- As a returing user, I want to be able to share images.
-- As a returing user, I want to have the oportunaty to get unique experiences.
-- As a returing user, I want new locations for spotting aircraft.
+- As a returing user, I want to be able to change questions depending what the customer wants. 
+- As a returing user, I want to be able to get the quesions in a different order.
+- As a returing user, I want to be able to get my score.
+- As a returing user, I want to be abe to register a new user name.
 
 #### Site Owner 
 
-- As a site owner, I want users to get updated images.
-- As a site owner, I want users to share their images and experiences with us.
-- As a site owner, I want users to be able to give their feedback.
-- As a site owner, I want users to be able to navigate the site easily.
-- As a site owner, I want to be able to contact users with newsletters.
-
+- As a site owner, I want users to be able to change the questions.
+- As a site owner, I want users to be able to use the same questions but in a different order.
+- As a site owner, I want users to be able to have a easy and quick navigation from one question to another.
+- As a site owner, I want users to be able to see the feedback when they get a correct answer or a wrong answer.
+- As a site owner, I want users to hear the feedback if they have got the correct answer or not.
+- As a site owner, I want users to be able to track the score.
+- 
 ### iii. User Requirement
 
-- An easy to use Navigation toolbar.
-- Accessible to those with visual and hearing impairments.
-- Easy to navigate and located required information.
+- Score tracking system.
+- To be able to hear feedback if they got the answer right or wrong.
+- To be able to see the feedback if the user got the answer right or wrong.
 - Responsive to all devices sizes.
 - Visually pleasing design and layout.
-- Concise and informtive content.
-- Up to date content.
+- To be abe to register a username and get a allert to state that the usernam has been registered.
+- To change the code easily to change the quetios.
 
 ## 2. Aims
 
