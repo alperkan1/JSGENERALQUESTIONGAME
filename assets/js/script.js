@@ -664,5 +664,5 @@ const question = [{
                 correct: true
             }
         ]
-    },
+    }
 ]
