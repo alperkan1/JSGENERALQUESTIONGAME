@@ -1,12 +1,9 @@
-
-
 /**username styling**/
 #username {
     text-align: center;
     margin: 20px;
     font-size: 20px;
-
-} 
+}
 
 /**Body of the 404 page**/
 #b404 {
@@ -23,23 +20,23 @@
 /**Link on the 404 page**/
 #h404 {
     text-align: center;
-}    
+}
 
 /**Username box**/
 #fname {
-    border: 5px inset ;
+    border: 5px inset;
     padding: 0;
     margin: 10px;
     font-size: 20px;
     background: rgb(121, 119, 119);
-    color:white;
-    text-align:center;
+    color: white;
+    text-align: center;
     text-transform: uppercase;
     font-style: bold;
 }
 
 /**Styling for the submit**/
-#sub{
+#sub {
     --hue: var(--hue-btns);
     border-radius: 5px;
     padding: 5px 10px;
@@ -49,7 +46,6 @@
     font-family: roboto;
     background-color: hsl(var(--hue), 60%, 60%);
     font-size: 20px;
-
 }
 
 /**Body style**/
@@ -72,7 +68,7 @@ body {
     --hue-neutral: 530;
     --hue-correct: 140;
     --hue-wrong: 10;
-    --hue-btns:570;
+    --hue-btns: 570;
 }
 
 /* contaner for the questions*/
@@ -83,7 +79,6 @@ body {
     border-radius: 7px;
     padding: 15px;
     box-shadow: 0 0 10px 4px;
-
 }
 
 /**answer buttons**/
@@ -93,9 +88,8 @@ body {
     padding: 10px;
     gap: 5px;
     margin: 20px 30px;
-    
-    
 }
+
 /*Button styling*/
 .btn {
     --hue: var(--hue-btns);
@@ -107,7 +101,6 @@ body {
     font-family: roboto;
     background-color: hsl(var(--hue), 60%, 60%);
     font-size: 20px;
- 
 }
 
 /**When you hover over the buttons**/
@@ -116,105 +109,99 @@ body {
 }
 
 /**What happens when you get the correct answer**/
-.btn.right{
+.btn.right {
     --hue: var(--hue-correct);
     color: black;
     font-size: 30px;
-    
 }
 
 /**What happens when the answer is wrong**/
-.btn.wrong{
-    --hue: var(--hue-wrong); 
+.btn.wrong {
+    --hue: var(--hue-wrong);
     color: black;
-    
 }
 
 /**Color chnage when the right ans**/
 body.right {
     --hue: var(--hue-correct);
     font-size: 20px;
-   
 }
 
 /**Color chnage when the right wrong**/
 body.wrong {
     --hue: var(--hue-wrong);
-    
 }
 
 /**Next button**/
-.forward-btn,.begin-btn {
+.forward-btn,
+.begin-btn {
     font-size: 40px;
-    padding:10px 10px;
-    
-
+    padding: 10px 10px;
 }
+
 /**Start of the game**/
-.command{
+.command {
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
 /**defult bring it to empty**/
-.none{   
-display: none;    
+.none {
+    display: none;
 }
 
 /**Question text**/
-#quiz{
-    font-size:40px;
-    text-align:center;
-
+#quiz {
+    font-size: 40px;
+    text-align: center;
 }
+
 /*with smaller screen */
 @media screen and (max-width: 550px) {
+
     #c404 {
-        
         font-size: 300%;
     }
-    #fname{
+
+    #fname {
         margin: 0;
         padding: 0;
     }
+
     .box {
         width: 100%;
         max-width: 80%;
         background: darkgrey;
         border-radius: 1px;
         padding: 0px;
-    } 
-    #fname {
-        
-        width: 200px;
-        margin: 20px 0;
-       
     }
 
-    #sub{
-        
+    #fname {
+        width: 200px;
+        margin: 20px 0;
+    }
+
+    #sub {
         font-size: 15px;
-    
     }
 
     .btn {
-        
         font-size: 15px;
-     
     }
-    .command{
+
+    .command {
         text-align: center;
         margin: 0;
         padding-bottom: 20px;
     }
-    #quiz{
-        font-size:20px;
-               
+
+    #quiz {
+        font-size: 20px;
     }
 
-    #uName , #scores{
+    #uName,
+    #scores {
         text-align: center;
     }
-
 }
