@@ -459,13 +459,13 @@ The site was deployed using GitHub. The page is pubic and can be reached with th
 
 #### To run you can fork the project form the link below 
 
-[GitHUb page link](https://alperkan1.github.io/JSGENERALQUESTIONGAME/)
+[GitHUb page link](https://github.com/alperkan1/JSGENERALQUESTIONGAME)
 
 - On the top right it will give you the forking option
 
 #### To Clone use the link below  
 
-[GitHUb page link](https://alperkan1.github.io/JSGENERALQUESTIONGAME/)
+[GitHUb page link](https://github.com/alperkan1/JSGENERALQUESTIONGAME)
 
 - Use the Code button
 - Choose your cloning option (HTTPS SSH GITHUB CLI)
