@@ -1,4 +1,4 @@
-# Dublin Airport Plane Spotters
+# GENERAL KNOWLEDGE GAME   
 (Developer Alper Kanburoglu)
 
 ![image of website on other devices](documents/Capture.JPG)
