@@ -155,30 +155,38 @@ Fantasy with a backup of roboto and sans-serif was used on the page to clearly s
 
 ## 4. Features
 
-### i. Navigation Bar
-- The links to jump from page to page for comfortable navigation on all devices.
-- The links will be placed on all 5 pages.
-- The person viewing the page will be able to navigate without having to use the the history or the back button to navigate.
+### i. Registry
+- The page opens with the Input asking for Username.
+- You register your username easily with a sleek looking input box.
+- The person then gets a alert to state that they have registered.
 
-<details><summary>Navigation Bar</summary>
-<img src="documents/pageimages/navbar.JPG">
+<details><summary>Register</summary>
+<img src="documents/pageimages/register.JPG">
 </details>   
 
-### ii. The Landing Page 
-- The landing page has a photo of Dublin Airport. With Text overlay of Dublin Airport Plane Spotters.
-- This section is to communicate what the site is for, with an inspirational image of an aircraft in Dublin Airport. 
-
-<details><summary>The Landing Page</summary>
-<img src="documents/pageimages/ladingpage.JPG">
+### ii. Start
+- Once regitered you then are moved to the Start screen.
+- 
+<details><summary>Start</summary>
+<img src="documents/pageimages/start.JPG">
 </details> 
 
-### iii. Community Information
-- This section includes the benefits of joining the site and what they will receive from joining the site.
-- The user will become a part of a community of like-minded people.
-- The site should encourage people to go plane spotting together and be part of a larger group.
+### iii. Question
+- This then moves to the questions with 4 answer buttons.
+- Once you choose your answer if correct background of buttons goes green and audio that states yes.
+- If incorrect the button goes red and the audio states wrong.
+- Then the forward button appears.
+- The username is at the bottom Left.
+- The score is below the username with the score increasing by one for each right answer.
 
-<details><summary>Community Information</summary>
-<img src="documents/pageimages/middle.JPG">
+<details><summary>Question</summary>
+<img src="documents/pageimages/question.JPG">
+</details> 
+<details><summary>Right Answer</summary>
+<img src="documents/pageimages/right.JPG">
+</details> 
+<details><summary>Wrong Answer</summary>
+<img src="documents/pageimages/wrong.JPG">
 </details> 
 
 ### iv. Special Flights and Locations
