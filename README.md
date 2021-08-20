@@ -24,7 +24,7 @@
    2. [Start](#ii-start)
    3. [Question](#iii-question)
    4. [Reset](#iv-reset)
-   5. [404](#v-404-page)
+   5. [404 Page](#v-404-page)
    6. [Features Left To Implement](#vi-features-left-to-implement)
 5. [Technologies Used](#5-technologies-used)
    1. [Code Used](#i-code-used)
