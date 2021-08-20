@@ -193,7 +193,7 @@ Fantasy with a backup of roboto and sans-serif was used on the page to clearly s
 <img src="documents/pageimages/restart.JPG">
 </details> 
 
-### v. 404
+### v. 404 Page
 -The 404 page is a error page where it wil re direct the user back to the game.
 
 <details><summary>404 Page</summary>
