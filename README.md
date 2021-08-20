@@ -255,19 +255,7 @@ The WAVE WebAIM acessibility tool was used to confirm check that the site is up 
 <img src="documents/Acess/home.JPG">
 </details> 
 
-<details><summary>Gallery</summary>
-<img src="documents/Acess/gallery.JPG">
-</details> 
-
-<details><summary>Survey</summary>
-<img src="documents/Acess/survey.JPG">
-</details> 
-
-<details><summary>Thank You</summary>
-<img src="documents/Acess/thankyou.JPG">
-</details> 
-
-<details><summary>404</summary>
+<details><summary>404a</summary>
 <img src="documents/Acess/404.JPG">
 </details>
 
