@@ -229,22 +229,10 @@ Fantasy with a backup of roboto and sans-serif was used on the page to clearly s
 
 ### i. HTML Validation
 
-The W3C Markup Validation Service used to validate the HTML code. On page gallery and survey warning for sections not having a heading. For desing reasons that was chosen.
+The W3C Markup Validation Service used to validate the HTML code. No warning or errors showing.
 
 <details><summary>Home</summary>
 <img src="documents/htmltest/index.JPG">
-</details> 
-
-<details><summary>Gallery</summary>
-<img src="documents/htmltest/gallery.JPG">
-</details> 
-
-<details><summary>Survey</summary>
-<img src="documents/htmltest/survey.JPG">
-</details> 
-
-<details><summary>Thank You</summary>
-<img src="documents/htmltest/thankyou.JPG">
 </details> 
 
 <details><summary>404</summary>
@@ -253,10 +241,10 @@ The W3C Markup Validation Service used to validate the HTML code. On page galler
 
 ### ii. CSS Validation
 
-W3C jigsaw Validation was used to test the code with a direct input. 1 warning and no errors are showing.
+W3C jigsaw Validation was used to test the code with a direct input. 4 warning and no errors are showing.
 
 <details><summary>CSS Validation</summary>
-<img src="documents/csstest/css.JPG">
+<img src="documents/csstest/csstest.JPG">
 </details>
 
 ### iii. Accessibility
