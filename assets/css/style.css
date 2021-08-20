@@ -1,6 +1,6 @@
 
 
-
+/**username styling**/
 #username {
     text-align: center;
     margin: 20px;
@@ -8,22 +8,24 @@
 
 } 
 
+/**Body of the 404 page**/
 #b404 {
     background-color: black;
 }
 
+/**Text of the 404 page**/
 #c404 {
     color: white;
     font-size: 110px;
     text-align: center;
 }
 
+/**Link on the 404 page**/
 #h404 {
     text-align: center;
 }    
 
-
-
+/**Username box**/
 #fname {
     border: 5px inset ;
     padding: 0;
@@ -36,6 +38,7 @@
     font-style: bold;
 }
 
+/**Styling for the submit**/
 #sub{
     --hue: var(--hue-btns);
     border-radius: 5px;
@@ -49,7 +52,7 @@
 
 }
 
-
+/**Body style**/
 body {
     font-family: fantasy, roboto, sans-serif;
     box-sizing: border-box;
@@ -63,13 +66,15 @@ body {
     --hue: var(--hue-neutral);
     background-color: hsl(var(--hue), 90%, 40%);
 }
-/* colors for the right answer and wrog asnwer*/
+
+/* colors for the right answer and wrong asnwer*/
 :root {
     --hue-neutral: 530;
     --hue-correct: 140;
     --hue-wrong: 10;
     --hue-btns:570;
 }
+
 /* contaner for the questions*/
 .box {
     width: 900px;
@@ -81,6 +86,7 @@ body {
 
 }
 
+/**answer buttons**/
 .btn-ans {
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -90,7 +96,7 @@ body {
     
     
 }
-/*buttom styling*/
+/*Button styling*/
 .btn {
     --hue: var(--hue-btns);
     border-radius: 5px;
@@ -104,61 +110,63 @@ body {
  
 }
 
+/**When you hover over the buttons**/
 .btn:hover {
     border-color: black;
 }
 
+/**What happens when you get the correct answer**/
 .btn.right{
     --hue: var(--hue-correct);
     color: black;
     font-size: 30px;
     
 }
+
+/**What happens when the answer is wrong**/
 .btn.wrong{
     --hue: var(--hue-wrong); 
     color: black;
     
 }
 
+/**Color chnage when the right ans**/
 body.right {
     --hue: var(--hue-correct);
     font-size: 20px;
    
 }
 
+/**Color chnage when the right wrong**/
 body.wrong {
     --hue: var(--hue-wrong);
     
 }
 
+/**Next button**/
 .forward-btn,.begin-btn {
     font-size: 40px;
     padding:10px 10px;
     
 
 }
-
+/**Start of the game**/
 .command{
     display: flex;
     justify-content: center;
-    align-items: center;
-    
-   
+    align-items: center; 
 }
 
-.none{
-    
+/**defult bring it to empty**/
+.none{   
 display: none;    
 }
 
-
-
-
-
+/**Question text**/
 #quiz{
     font-size:40px;
     text-align:center;
-    
+
 }
 /*with smaller screen */
 @media screen and (max-width: 550px) {

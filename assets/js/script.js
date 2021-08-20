@@ -108,6 +108,7 @@ function setClass(element, correct) {
         wrong.play()
     }
 }
+
 /** clear class to find the answer */
 function clearClass(element) {
     element.classList.remove("correct")
@@ -645,7 +646,7 @@ const question = [{
         ]
     },
 
-     {
+    {
         question: "What is the world’s best selling stout beer?",
         answer: [{
                 text: "Murphys",
