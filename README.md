@@ -20,17 +20,12 @@
    3. [Font](#iii-font)
    4. [Wireframes](#iv-wireframes)
 4. [Features](#3-Features)
-   1. [Navigation Bar](#i-navigation-bar)
-   2. [The Landing Page](#ii-the-landing-page)
-   3. [Community Information](#iii-community-information)
-   4. [Special Flights Section and Locations](#iv-special-flights-section-and-locations)
-   5. [Survey Page](#v-survey-page)
-   6. [Images](#vi-images)
-   7. [video](#vii-video)
-   8. [Footer](#viii-the-footer)
-   9. [404 Page](#ix-404-page)
-   10. [Thank You Page](#x-thank-you-page)
-   11. [Features Left To Implement](#xi-features-left-to-implement)
+   1. [Registry](#i-registry)
+   2. [Start](#ii-start)
+   3. [Question](#iii-question)
+   4. [Reset](#iv-reset)
+   5. [404](#v-404-page)
+   6. [Features Left To Implement](#vi-features-left-to-implement)
 5. [Technologies Used](#5-technologies-used)
    1. [Code Used](#i-code-used)
    2. [Tools and Framework](#ii-tools-and-framework)
@@ -198,7 +193,7 @@ Fantasy with a backup of roboto and sans-serif was used on the page to clearly s
 <img src="documents/pageimages/restart.JPG">
 </details> 
 
-### v. 404 Page
+### v. 404
 -The 404 page is a error page where it wil re direct the user back to the game.
 
 <details><summary>404 Page</summary>
