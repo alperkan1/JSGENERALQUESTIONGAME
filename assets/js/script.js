@@ -9,7 +9,6 @@ const uName = document.getElementById("uName")
 var audio = new Audio("assets/sound/sound.mp3")
 var wrong = new Audio("assets/sound/wrong.mp3")
 
-
 let randomquiz, quest
 
 score.classList.add("none")
@@ -20,12 +19,10 @@ strBtn.addEventListener("click", beginGame)
 nctBtn.addEventListener("click", () => {
     quest++
     addNextQuest()
-    
-}) 
+})
 
-
-
-function register(){
+/**registraions code for username */
+function register() {
     strBtn.classList.remove("none")
     strBtn.addEventListener("click", beginGame)
 }
@@ -45,28 +42,25 @@ function beginGame() {
     score.removeAttribute('style')
     uName.removeAttribute("style")
     addNextQuest()
-
 }
+
 /**entering the username */
 function getFormDetails(event) {
-    
     event.preventDefault();
-    
     let name = document.getElementById('fname');
-        
     document.getElementById('name').textContent = name.value;
     alert("username Registered")
     userName.classList.add("none")
     register()
-    
 }
 
 /** Moving to the next question and chooising random question from 10 questions so its not always the same questions */
 function addNextQuest() {
     resetPage()
     VisualQ(randomquiz[quest])
-    ansBtne.removeAttribute('style') 
+    ansBtne.removeAttribute('style')
 }
+
 /**show the question and answer  */
 function VisualQ(question) {
     questE.innerText = question.question
@@ -79,39 +73,34 @@ function VisualQ(question) {
         }
         button.addEventListener("click", selectAns)
         ansBtne.appendChild(button)
-
     })
 }
+
 /**selecting and showing the correct answer and the resrat button */
 function selectAns(e) {
     const selectBtn1 = e.target
     const correct = selectBtn1.dataset.correct
-    
-        setClass(selectBtn1, selectBtn1.dataset.correct)
-    
-
+    setClass(selectBtn1, selectBtn1.dataset.correct)
     if (randomquiz.length > quest + 1) {
         nctBtn.classList.remove("none")
-
     } else {
-        uName.style.fontSize="40px"
-        uName.style.textAlign="center"
-        score.style.fontSize="40px"
-        score.style.textAlign="center"
+        uName.style.fontSize = "40px"
+        uName.style.textAlign = "center"
+        score.style.fontSize = "40px"
+        score.style.textAlign = "center"
         ansBtne.classList.add("none")
         questE.classList.add("none")
         strBtn.innerText = "RESTART"
         strBtn.classList.remove("none")
-        
-
     }
 }
+
 /** find the correct answer */
 function setClass(element, correct) {
     clearClass(element)
     if (correct) {
         element.classList.add("correct")
-        ansBtne.style.backgroundColor="green"
+        ansBtne.style.backgroundColor = "green"
         incrementScore()
         audio.play()
     } else {
@@ -131,17 +120,16 @@ function resetPage() {
     nctBtn.classList.add("none")
     while (ansBtne.firstChild) {
         ansBtne.removeChild(ansBtne.firstChild)
-
     }
 }
 
+/** Code to work out the scrore */
 function incrementScore() {
     let score = parseInt(document.getElementById("score").innerText);
     document.getElementById("score").innerText = ++score
-
 }
-/** Questions for the quize */
 
+/** Questions for the quize */
 const question = [{
         question: "Whats the Capital of Turkey?",
         answer: [{
@@ -340,5 +328,341 @@ const question = [{
                 correct: false
             }
         ]
-    }
+    },
+
+    {
+        question: "What is a group of crows called?",
+        answer: [{
+                text: "Bunch",
+                correct: false
+            },
+            {
+                text: "A Murder",
+                correct: true
+            },
+            {
+                text: "Crowd",
+                correct: false
+            },
+            {
+                text: "Some",
+                correct: false
+            }
+        ]
+    },
+
+    {
+        question: "Compared to their body weight, what animal is the strongest - Dung Beetle, Elephant, Ant, Cow?",
+        answer: [{
+                text: "Ant",
+                correct: false
+            },
+            {
+                text: "Elephant",
+                correct: false
+            },
+            {
+                text: "Dung Beetle",
+                correct: true
+            },
+            {
+                text: "Cow",
+                correct: false
+            }
+        ]
+    },
+
+    {
+        question: "How many dots appear on a pair of dice?",
+        answer: [{
+                text: "54",
+                correct: false
+            },
+            {
+                text: "42",
+                correct: true
+            },
+            {
+                text: "12",
+                correct: false
+            },
+            {
+                text: "34",
+                correct: false
+            }
+        ]
+    },
+
+    {
+        question: "Which is the only body part that is fully-grown from birth?",
+        answer: [{
+                text: "Skin",
+                correct: false
+            },
+            {
+                text: "Liver",
+                correct: false
+            },
+            {
+                text: "Toes",
+                correct: false
+            },
+            {
+                text: "Eyes",
+                correct: true
+            }
+        ]
+    },
+
+    {
+        question: "What is acrophobia a fear of?",
+        answer: [{
+                text: "Flying",
+                correct: true
+            },
+            {
+                text: "Spiders",
+                correct: false
+            },
+            {
+                text: "Cars",
+                correct: false
+            },
+            {
+                text: "Bikes",
+                correct: false
+            }
+        ]
+    },
+
+    {
+        question: "In what country was Elon Musk born?",
+        answer: [{
+                text: "America",
+                correct: false
+            },
+            {
+                text: "Ireland",
+                correct: false
+            },
+            {
+                text: "UK",
+                correct: false
+            },
+            {
+                text: "South Africa",
+                correct: true
+            }
+        ]
+    },
+
+    {
+        question: "What country has the most islands?",
+        answer: [{
+                text: "Ireland",
+                correct: false
+            },
+            {
+                text: "Norway",
+                correct: false
+            },
+            {
+                text: "Sweden",
+                correct: true
+            },
+            {
+                text: "Greece",
+                correct: false
+            }
+        ]
+    },
+
+    {
+        question: "How many hearts does an octopus have?",
+        answer: [{
+                text: "4",
+                correct: false
+            },
+            {
+                text: "2",
+                correct: false
+            },
+            {
+                text: "3",
+                correct: true
+            },
+            {
+                text: "1",
+                correct: false
+            }
+        ]
+    },
+
+    {
+        question: "December 26th is known by what names in Ireland?",
+        answer: [{
+                text: "Boxing Day",
+                correct: false
+            },
+            {
+                text: "Paddys Day",
+                correct: false
+            },
+            {
+                text: "Bank Holiday",
+                correct: false
+            },
+            {
+                text: "StStephens Day",
+                correct: true
+            }
+        ]
+    },
+
+    {
+        question: "What phone company produced the 3310?",
+        answer: [{
+                text: "Nokia",
+                correct: true
+            },
+            {
+                text: "Sony",
+                correct: false
+            },
+            {
+                text: "Samsung",
+                correct: false
+            },
+            {
+                text: "Apple",
+                correct: false
+            }
+        ]
+    },
+
+    {
+        question: "What is the state capital of New York?",
+        answer: [{
+                text: "New York",
+                correct: false
+            },
+            {
+                text: "Albany",
+                correct: true
+            },
+            {
+                text: "Dallas",
+                correct: false
+            },
+            {
+                text: "Chicago",
+                correct: false
+            }
+        ]
+    },
+
+    {
+        question: "What is the capital of Ireland?",
+        answer: [{
+                text: "London",
+                correct: false
+            },
+            {
+                text: "Glasgow",
+                correct: false
+            },
+            {
+                text: "Dublin",
+                correct: true
+            },
+            {
+                text: "Belfast",
+                correct: false
+            }
+        ]
+    },
+
+    {
+        question: "On what continent would you find the city of Baku?",
+        answer: [{
+                text: "Asia",
+                correct: true
+            },
+            {
+                text: "Africa",
+                correct: false
+            },
+            {
+                text: "Europe",
+                correct: false
+            },
+            {
+                text: "America",
+                correct: false
+            }
+        ]
+    },
+
+    {
+        question: "How many measures of Gordon’s Gin are in a Vesper (James Bond) martini?",
+        answer: [{
+                text: "4",
+                correct: false
+            },
+            {
+                text: "1",
+                correct: false
+            },
+            {
+                text: "3",
+                correct: true
+            },
+            {
+                text: "2",
+                correct: false
+            }
+        ]
+    },
+
+    {
+        question: "Cacio & Pepe is a staple of what Italian city’s cuisine?",
+        answer: [{
+                text: "Rome",
+                correct: true
+            },
+            {
+                text: "Venice",
+                correct: false
+            },
+            {
+                text: "Milan",
+                correct: false
+            },
+            {
+                text: "Turin",
+                correct: false
+            }
+        ]
+    },
+
+     {
+        question: "What is the world’s best selling stout beer?",
+        answer: [{
+                text: "Murphys",
+                correct: false
+            },
+            {
+                text: "Beamish",
+                correct: false
+            },
+            {
+                text: "Kilkenny",
+                correct: false
+            },
+            {
+                text: "Guiness",
+                correct: true
+            }
+        ]
+    },
 ]
