@@ -449,23 +449,23 @@ The site was deployed using GitHub. The page is pubic and can be reached with th
 
 #### Page Deployment
 
-[GitHUb page link](https://github.com/alperkan1/MS1-Dublin-Airport-Plane-Spotters)
+[GitHUb page link](https://github.com/alperkan1/JSGENERALQUESTIONGAME/)
 
 - On git hub go to the settings.
 - Then choose the Pages option on the left hand headings.
 - Choose the branch as master.
-- Then deploy it. It will take a moment and then a link will be created with the massage "your site is published at https://(your github page).github.io/MS1-Dublin-Airport-Plane-Spotters/index.html". 
+- Then deploy it. It will take a moment and then a link will be created with the massage "your site is published at https://(your github page).github.io//JSGENERALQUESTIONGAME 
 - Then the link is live.
 
 #### To run you can fork the project form the link below 
 
-[GitHUb page link](https://github.com/alperkan1/MS1-Dublin-Airport-Plane-Spotters)
+[GitHUb page link](https://alperkan1.github.io/JSGENERALQUESTIONGAME/)
 
 - On the top right it will give you the forking option
 
 #### To Clone use the link below  
 
-[GitHUb page link](https://github.com/alperkan1/MS1-Dublin-Airport-Plane-Spotters)
+[GitHUb page link](https://alperkan1.github.io/JSGENERALQUESTIONGAME/)
 
 - Use the Code button
 - Choose your cloning option (HTTPS SSH GITHUB CLI)
@@ -480,15 +480,12 @@ Images not referenced are developers images
 
 ### i. Media
 
-- Image on Survey page from [Manfred Irmer](https://www.pexels.com/photo/in-flight-airliner-in-grayscale-photo-587063/) from the site pexels
-- image on Lading page for mobile devices [Nagative Space](https://www.pexels.com/photo/airport-travel-waiting-terminal-34145/) from the site pexels
-- Image on the thank you page [Joël Super](https://www.pexels.com/photo/gray-air-vehicle-with-yellow-coated-cable-around-docking-wheels-2315265/) from the pexel
-- Image on the 404 page is from Turkish Airlines media cloud.
+- Audio taken from https://freesound.org/ 
 
 ### ii. Code 
 
-- On the landing page the circle image is inspired from the love running project code institute.
-- On the landing page the schedule code modified from the love running project code institute.
+- On the js code the score to add 1 was taken from the codes institude love maths essential project.
+
 
 
 [Back to the top](https://github.com/alperkan1/Dublin-Airport-Plane-spotters#Dublin-Airport-Plane-Spotters)
