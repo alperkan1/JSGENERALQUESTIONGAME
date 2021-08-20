@@ -95,7 +95,7 @@
 - Responsive to all devices sizes.
 - Visually pleasing design and layout.
 - To be abe to register a username and get a allert to state that the usernam has been registered.
-- To change the code easily to change the quetios.
+- To change the code easily to have new quetions.
 
 ## 2. Aims
 
