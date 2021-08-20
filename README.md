@@ -200,7 +200,7 @@ Fantasy with a backup of roboto and sans-serif was used on the page to clearly s
 <img src="documents/pageimages/404.JPG">
 </details>  
 
-### xi. Features Left To Implement
+### vii. Features Left To Implement
 - To have a leader board.
 - To use videos as a part of the questions.
 - to be able to select what type of question the user would like to answer.
