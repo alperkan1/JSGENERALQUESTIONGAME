@@ -1,9 +1,9 @@
 # GENERAL KNOWLEDGE GAME   
 (Developer Alper Kanburoglu)
 
-![image of website on other devices](documents/Capture.JPG)
+![image of website on other devices](documents/testscreen.JPG)
 
-[link to live page](https://alperkan1.github.io/MS1-Dublin-Airport-Plane-Spotters/index.html)
+[link to live page](https://alperkan1.github.io/JSGENERALQUESTIONGAME/index.html)
 
 # Contents
 
