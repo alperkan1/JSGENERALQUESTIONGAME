@@ -92,14 +92,14 @@ body {
 
 /*Button styling*/
 .btn {
-    --hue: var(--hue-btns);
+    
     border-radius: 5px;
     padding: 5px 10px;
     outline: none;
     color: snow;
     font-weight: bold;
     font-family: roboto;
-    background-color: hsl(var(--hue), 60%, 60%);
+    background-color: rgb(92, 153, 214);
     font-size: 20px;
 }
 
@@ -113,12 +113,14 @@ body {
     --hue: var(--hue-correct);
     color: black;
     font-size: 30px;
+    background-color: green;
 }
 
 /**What happens when the answer is wrong**/
 .btn.wrong {
     --hue: var(--hue-wrong);
     color: black;
+    background-color:red ;
 }
 
 /**Color chnage when the right ans**/
