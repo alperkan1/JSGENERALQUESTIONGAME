@@ -189,73 +189,27 @@ Fantasy with a backup of roboto and sans-serif was used on the page to clearly s
 <img src="documents/pageimages/wrong.JPG">
 </details> 
 
-### iv. Special Flights and Locations
-- This section will inform users of when certain aircraft will be landing at Dublin Airport.
-- What time it is scheduled to land or take off.
-- This section will be updated with new times and dates of unusal aircraft arriving in Dublin Airport.
-- The locations will inform the user of the best places to see the aircraft coming to land.
-- The locations uses google maps.
+### iv. Reset
+- This is the section where your tolad your final score.
+- Your User name and score is moved to the middle and made larger.
+- The restart button is also at the top to restart the game again.
 
-<details><summary>Special Flights and Locations</summary>
-<img src="documents/pageimages/locationandschedule.JPG">
+<details><summary>Restart</summary>
+<img src="documents/pageimages/restart.JPG">
 </details> 
 
-### v. Survey
-- We will be asking people about their Spotting Experiences and get their feedback.
-- The member will supply us with their name, surname and e-mail adress. 
-- We will be able to collect infromations for our database.
+### v. 404
+-The 404 page is a error page where it wil re direct the user back to the game.
 
-<details><summary>Survey</summary>
-<img src="documents/pageimages/survey.JPG">
-</details>  
-
-### vi Images
-- Will show images of aircraft in Dublin Airport by the community.
-- This section is valuable to the user as they can see what type of photos people like to take.
-- Details where the best images can be taken.
-- Anyone interested in purchasing images will be able to see them here.
-
-<details><summary>Images</summary>
-<img src="documents/pageimages/gallery.JPG">
-</details>  
-
-### vii. Video
-- The video is of Dublin Airport by the spotting comunity.
-
-<details><summary>Video</summary>
-<img src="documents/pageimages/video.JPG">
-</details>  
-
-### viii. The Footer
-- Has social media links that relate to the Dublin Airport Plane Spotting community.
-- This has the contact and company details.
-- This will is displayed on all pages.
-
-<details><summary>Footer</summary>
-<img src="documents/pageimages/footer.JPG">
-</details>  
-
-### ix. 404 Page
-
-- If a link does not work you will be directed to this page.
-
-<details><summary>404</summary>
+<details><summary>404 Page</summary>
 <img src="documents/pageimages/404.JPG">
-</details> 
-
-### x. Thank You Page
-
-- After you submit your survey it will take you to this page.
-- The page is to inform the user that the link has worked.
-
-<details><summary>Thank You</summary>
-<img src="documents/pageimages/thankyou.JPG">
-</details> 
+</details>  
 
 ### xi. Features Left To Implement
-- A community chat where people from the group can live chat and share their images.
-- Mail alert service for the community when a special aircraft is arriving to the airport.
-- An image sales page where people can sell their images.
+- To have a leader board.
+- To use videos as a part of the questions.
+- to be able to select what type of question the user would like to answer.
+- To be able to play a multiplayer game.
 
 ## 5. Technologies Used
 
@@ -263,6 +217,7 @@ Fantasy with a backup of roboto and sans-serif was used on the page to clearly s
 
 - CSS
 - HTML
+- JS
 
 ### ii. Tools and Framework
 
