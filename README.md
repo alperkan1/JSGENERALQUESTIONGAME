@@ -137,18 +137,20 @@ The site was desinged with background colours that compliment and enhance the im
 
 ### iii. Font
 
-Oswald with a back up of sans serif was used on the logo which represents the clear lines of an aircraft. H1 uses the Playfair with a backup of san serif. h2 uses the Oswald with san serif backup and the body uses the Roboto with sans serif backup. The fonts were chosen with user accessebility in mind. All of the fonts are considered to be dyslexia freindly and are clearly defined for people with visual impairments. 
+Fantasy with a backup of roboto and sans-serif was used on the page to clearly show the questions and the answer buttons. 
+
+
 
 ### iv. Wireframes
 
-<details><summary>Home Page</summary>
-<img src="documents/wireframes/home.png">
+<details><summary>Start</summary>
+<img src="documents/wireframes/start.png">
 </details>   
-<details><summary>Gallery</summary>
-<img src="documents/wireframes/gallery.png">
+<details><summary>Question</summary>
+<img src="documents/wireframes/question.png">
 </details>         
-<details><summary>Survey</summary>
-<img src="documents/wireframes/survey.png">
+<details><summary>result</summary>
+<img src="documents/wireframes/result.png">
 </details>   
 
 ## 4. Features
