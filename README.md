@@ -119,27 +119,15 @@
 
 ### i. Structure 
 
-The site is structured in a visually appealing manner which draws the eye down the page. The site implements a user freindly navigtion bar. On all pages the company logo is situated on the top left and when clicked will bring you back to the home page. The navigation bar is located on the top right with 3 links. On all pages the footer has links to the social media pages and contact details.
+The site is structured in a visually appealing manner which draws the eye down the page to submit the users name. The site implements a user freindly navigation with clear and easly readable buttons. The colors complment the user box and buttons. The buttons and back ground change colour depending on the correct or wrong answer. 
 
 #### Home Page 
 
-On the home page you can see an image of an airplane landing at Dublin Airport. In section 2,  you can find an image of an aircraft in a circle with information about the community. At the bottom of the page the live landing and take off times are visible with a map of the best spotting locations. This page is responsive as the scale of the page changes to smaller devices.
-
-#### Gallery Page 
-
-The gallery page has 9 images in boxes with with 3 columns. The images become inline blocks as the scale of the display gets smaller.
-
-#### Survey Page
-
-The survey page has a large image of an aircraft that zooms in. This page has a visually pleasing font with selectable options.
-
-#### Thank You Page 
-
-This page is entered after the survey is completed. This has a large image with a text box to inform the user that the survey has been sucessful. 
+On the home page you can see an registrations bax. Once you have registered it will show an alert to confirm the registration. Then it comes up with the button to start the game. The question coes up with 4 options. You choose the correct answer and the back ground of the buttons go green and the audio says yes. If you get the wrong answer the button goes red and it states audio as wrong. The user name is at the bottom left and the score is below that. The score increases by one if you get the correct answer and if you dont it does not increase. Once all the questions have been answered the it goes to the final page showing the sore username and restart button.
 
 #### 404 Page 
 
-This has a large image with a box overlay informing the user that they are on the wrong page and should go back.
+This is a black background with white writing and blue link code.
 
 ### ii. Design and Colour
 
