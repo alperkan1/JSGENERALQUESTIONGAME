@@ -44,7 +44,7 @@
     color: snow;
     font-weight: bold;
     font-family: roboto;
-    background-color: hsl(var(--hue), 60%, 60%);
+    background-color: rgb(92, 153, 214);
     font-size: 20px;
 }
 
@@ -60,7 +60,7 @@ body {
     width: 100vw;
     height: 100vh;
     --hue: var(--hue-neutral);
-    background-color: hsl(var(--hue), 90%, 40%);
+    background-color: rgb(10, 194, 163)
 }
 
 /* colors for the right answer and wrong asnwer*/
