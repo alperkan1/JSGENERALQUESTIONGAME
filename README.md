@@ -131,9 +131,9 @@ This is a black background with white writing and blue link code.
 
 ### ii. Design and Colour
 
-![image of website on other devices](documents/color.JPG)
+![image of website on other devices](documents/colorpallet.JPG)
 
-The site was desinged with background colours that compliment and enhance the images used. The colours are bright, cool tones to reflect the clear sky often captured in spotter images. The design of the site was choosen to instil the emotion of plane spotting on your device, anywhere in the world.  
+The site was desinged with background colours that compliment and enhance the images used. The colours are bright, cool tones to reflect the cool colors of correct green and red answers. The design of the site was choosen to instil the emotion of playing a fun game of greens and reds with a blue that compliments the colour.  
 
 ### iii. Font
 
