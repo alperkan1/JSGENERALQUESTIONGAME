@@ -13,7 +13,7 @@
    3. [User Requirment](#iii-user-requirment)
 2. [Aims](#2-aims)
    1. [User Aims](#i-user-aims)
-   2. [Site Creater Aims](#ii-site-creater-aims)
+   2. [Site Creator Aims](#ii-site-creator-aims)
 3. [UX](#3-UX)
    1. [Structure](#i-structure)
    2. [Design and Colour](#ii-design-and-colour)
@@ -52,7 +52,7 @@
 - A fun site for general knowledge game.
 - It is for people who are competitive and like to win.
 - For people to play with others.
-- For people who like a intrative game.
+- For people who like a interactive game.
 
 
 ### ii. User Stories
@@ -81,7 +81,7 @@
 - As a site owner, I want users to be able to see the feedback when they get a correct answer or a wrong answer.
 - As a site owner, I want users to hear the feedback if they have got the correct answer or not.
 - As a site owner, I want users to be able to track the score.
-- 
+
 ### iii. User Requirement
 
 - Score tracking system.
@@ -89,36 +89,36 @@
 - To be able to see the feedback if the user got the answer right or wrong.
 - Responsive to all devices sizes.
 - Visually pleasing design and layout.
-- To be abe to register a username and get a allert to state that the usernam has been registered.
-- To change the code easily to have new questions.
+- To be abe to register a username and get a alert to state that the usernam has been registered.
+- To change the code easily to create questions.
 
 ## 2. Aims
 
 ### i. User Aims
 
-- To b able to test peoples general knowledge.
+- To be able to test people's general knowledge.
 - Have the ability to change the questions depending on the clients requirments .
 - To have easly readable text and scores.
 - Quick navigation from question to question.
 - To get feedback visually and by audio if you got the answer right or wrong.
 
-### ii. Site Creater Aims
+### ii. Site Creator Aims
 
 - To be able to register a username.
-- To to be able to get a score at the end to see how wel i did.
+- To to be able to get a score at the end to see how well I did.
 - To have the questions in a different order every time you play.
-- To have questions that are easly changed.
-- To for the user to have enought fun to want to come back and beat their last score.
+- To have questions that are easily changed.
+- To for the user to have enough fun to want to come back and beat their last score.
 
 ## 3. UX
 
 ### i. Structure 
 
-The site is structured in a visually appealing manner which draws the eye down the page to submit the users name. The site implements a user freindly navigation with clear and easly readable buttons. The colors complment the user box and buttons. The buttons and back ground change colour depending on the correct or wrong answer. 
+The site is structured in a visually appealing manner which draws the eye down the page to submit the users name. The site implements a user freindly navigation with clear and easily readable buttons. The colors compliment the user box and buttons. The buttons and back ground change colour depending on the correct or wrong answer. 
 
 #### Home Page 
 
-On the home page you can see an registrations bax. Once you have registered it will show an alert to confirm the registration. Then it comes up with the button to start the game. The question coes up with 4 options. You choose the correct answer and the back ground of the buttons go green and the audio says yes. If you get the wrong answer the button goes red and it states audio as wrong. The user name is at the bottom left and the score is below that. The score increases by one if you get the correct answer and if you dont it does not increase. Once all the questions have been answered the it goes to the final page showing the sore username and restart button.
+On the home page you can see a registration box. Once you have registered it will show an alert to confirm the registration. Then it comes up with the button to start the game. The question comes up with 4 options. You choose the correct answer and the back ground of the buttons go green and the audio says yes. If you get the wrong answer the button goes red and it states audio as wrong. The user name is at the bottom left and the score is below that. The score increases by one if you get the correct answer and if you dont it does not increase. Once all the questions have been answered the it goes to the final page showing the score username and restart button.
 
 #### 404 Page 
 
@@ -133,8 +133,6 @@ The site was desinged with background colours that compliment and enhance the im
 ### iii. Font
 
 Fantasy with a backup of roboto and sans-serif was used on the page to clearly show the questions and the answer buttons. 
-
-
 
 ### iv. Wireframes
 
@@ -160,8 +158,8 @@ Fantasy with a backup of roboto and sans-serif was used on the page to clearly s
 </details>   
 
 ### ii. Start
-- Once regitered you then are moved to the Start screen.
-- 
+- Once registered you then are moved to the Start screen.
+
 <details><summary>Start</summary>
 <img src="documents/pageimages/start.JPG">
 </details> 
@@ -185,7 +183,7 @@ Fantasy with a backup of roboto and sans-serif was used on the page to clearly s
 </details> 
 
 ### iv. Reset
-- This is the section where your tolad your final score.
+- This is the section where your total your final score.
 - Your User name and score is moved to the middle and made larger.
 - The restart button is also at the top to restart the game again.
 
@@ -194,7 +192,7 @@ Fantasy with a backup of roboto and sans-serif was used on the page to clearly s
 </details> 
 
 ### v. 404 Page
--The 404 page is a error page where it wil re direct the user back to the game.
+-The 404 page is a error page where it will redirect the user back to the game.
 
 <details><summary>404 Page</summary>
 <img src="documents/pageimages/404.JPG">
@@ -203,7 +201,7 @@ Fantasy with a backup of roboto and sans-serif was used on the page to clearly s
 ### vi. Features Left To Implement
 - To have a leader board.
 - To use videos as a part of the questions.
-- to be able to select what type of question the user would like to answer.
+- To be able to select what type of question the user would like to answer.
 - To be able to play a multiplayer game.
 
 ## 5. Technologies Used
@@ -328,7 +326,7 @@ On the landing page once you start the game you can track the your score.
 
 | Element | Aim | Result |
 | ------- | ----|----------|
-|Score| The aim is to inform thr user how many questions they ahve gotten corect| works on index page|
+|Score| The aim is to inform thr user how many questions they have gotten correct| works on index page|
 
 <details><summary>Score</summary>
 <img src="documents/pageimages/right.JPG">
@@ -340,7 +338,7 @@ On the landing page the first thing you can do is to register your usrname.
 
 | Element | Aim | Result |
 | ------- | ----|----------|
-|Username| The aim is give the user the option ofchosing a username| works on the idex page|
+|Username| The aim is give the user the option of choosing a username| works on the index page|
 
 <details><summary>Register</summary>
 <img src="documents/pageimages/register.JPG">
@@ -352,7 +350,7 @@ Once the game is over and you get your score then you can choose to play again. 
 
 | Element | Aim | Result |
 | ------- | ----|----------|
-|Resart| The aim is to restart the game | works on all pages|
+|Restart| The aim is to restart the game | works on all pages|
 
 <details><summary>Restart</summary>
 <img src="documents/pageimages/restart.JPG">
@@ -360,7 +358,7 @@ Once the game is over and you get your score then you can choose to play again. 
 
 #### As a returning user,  I want to be able to get the quesions in a different order.
 
-The questions chnage the sequence every time you play.
+The questions change the sequence every time you play.
 
 <details><summary>Question</summary>
 <img src="documents/pageimages/question.JPG">
@@ -368,7 +366,7 @@ The questions chnage the sequence every time you play.
 
 #### As a returning user, I want to be able to change questions depending what the customer wants.
 
-By making a small chnage on the JS code it is very easy to implement questions that the user might want.
+By making a small change on the JS code it is very easy to implement questions that the user might want.
 
 #### As a returning user, I want to be able to get my score.
 
@@ -384,7 +382,7 @@ The game add the score and at the end you get your final scre
 
 #### As a site owner, I want users to be able to have a easy and quick navigation from one question to another.
 
-With easy to use buttons which have easy to read text aloowing the user to navigate.
+With easy to use buttons which have easy to read text allowing the user to navigate.
 
 | Element | Aim | Result |
 | ------- | ----|----------|
@@ -402,7 +400,7 @@ With easy to use buttons which have easy to read text aloowing the user to navig
 | When trying to implement the score the for each meant that the correct score went up by 2 and the wrong answer made the score go up by one.| By changing the Javascript and taking the for each functin out the score implements correctly|
 | When trying to implement the sound function the sound replayed| Changed the function to make it only work one|
 | When using smaller devices the text didnt fit.| Change the element with a @media query|
-|The 404 page didnt work.| I had to chnage the code for the 404 page to implement correctly|
+|The 404 page didnt work.| I had to change the code for the 404 page to implement correctly|
 
 ## 8. Deployment
 
