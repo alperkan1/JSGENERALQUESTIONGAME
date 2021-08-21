@@ -61,7 +61,7 @@
 
 - As a first time user, I want to be able answers question and be notified if correct or not.
 - As a first time user, I want to be able register my username.
-- As a first time user, I want to be able to re play with questions in a different squince.
+- As a first time user, I want to be able to re play with questions in a different sequence.
 - As a first time user, I want to be able to get my score.
 - As a first time user, I want to be able to see visually if the answers are correct or not.
 - As a first time user, I want to be able to hear if my answers are correct or not..
@@ -303,43 +303,49 @@ The site is working on the follwing browsers
 
 ### vii. Have the User Stories Been Answered
 
-#### As a first time user, I want to be able to see other users photos.
+#### As a first time user, I want to be able answers question and be notified if correct or not.
 
-The gallery page that can be accessed from the navigation bar shows photos.
-
-| Element | Aim | Result |
-| ------- | ----|----------|
-|Gallery| The aim is to show people photos at Dublin Airport| works on gallery page|
-
-<details><summary>Gallery</summary>
-<img src="documents/pageimages/gallery.JPG">
-</details>  
-
-
-#### As a first time user, I want to be able to locate the best locations for plane spotting at Dublin Airport.
-
-On the landing page there is a locations heading with a map to show best location to go spotting.
+Once you answer a question the button or the background changes and audio states if you are correct or wrong.
 
 | Element | Aim | Result |
 | ------- | ----|----------|
-|Map| The aim is to show people the bet place to go spotting| works on lading page|
+|Answer| The aim is to inform the user if the answer is correct or wrong| works with every question|
 
-<details><summary>Locations</summary>
-<img src="documents/pageimages/locationandschedule.JPG">
+<details><summary>Question</summary>
+<img src="documents/pageimages/question.JPG">
+</details> 
+<details><summary>Right Answer</summary>
+<img src="documents/pageimages/right.JPG">
+</details> 
+<details><summary>Wrong Answer</summary>
+<img src="documents/pageimages/wrong.JPG">
 </details> 
 
 
-#### As a first time user, I want to get the most up to date flight information.
+#### As a first time user, I want to be able to get my score.
 
-On the landing page there is a schedule heading with a up to date lading and take off information.
+On the landing page once you start the game you can track the your score.
 
 | Element | Aim | Result |
 | ------- | ----|----------|
-|Schedule| The aim is give the most up to date information on take off and landings at Dublin Airport| works on lading page|
+|Score| The aim is to inform thr user how many questions they ahve gotten corect| works on index page|
 
-<details><summary>Flight times</summary>
-<img src="documents/pageimages/locationandschedule.JPG">
+<details><summary>Score</summary>
+<img src="documents/pageimages/right.JPG">
 </details> 
+squince
+
+#### As a first time user, I want to be able register my username.
+
+On the landing page the first thing you can do is to register your usrname.
+
+| Element | Aim | Result |
+| ------- | ----|----------|
+|Username| The aim is give the user the option ofchosing a username| works on the idex page|
+
+<details><summary>Register</summary>
+<img src="documents/pageimages/register.JPG">
+</details>   
 
 #### As a first time user, I want to find the social media links for the the community.
 
