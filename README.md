@@ -398,13 +398,11 @@ With easy to use buttons which have easy to read text aloowing the user to navig
 
 | bugs | Corrections|
 | ------- | --- |
-| CSS code giving the error of H3 cannot be used as a label | Take the h3 heading out of the label and have it as a separate element in the survey |
-| When trying to put the Map and the schedule box beside each other the map went below.| Used a flex to align the two elements|
-| On the submit page when you submitted the survey the page went to a 404 page| Created a new page and linked it to the submit button|
-| Gallery photos become too small when you use a small device| Change the element to a inline block with a @media query|
-| the text box on the 404 page was not moving and over flowing on smaller pages| Create a div with in the image to contain the text box|
-| After deployment the style.css was not working|Check the style.css file route on the HTML chnage it to the correct route.|
-
+| Input closing creating a error on the validator| Take the </input> out of the HTML. |
+| When trying to implement the score the for each meant that the correct score went up by 2 and the wrong answer made the score go up by one.| By changing the Javascript and taking the for each functin out the score implements correctly|
+| When trying to implement the sound function the sound replayed| Changed the function to make it only work one|
+| When using smaller devices the text didnt fit.| Change the element with a @media query|
+|The 404 page didnt work.| I had to chnage the code for the 404 page to implement correctly|
 
 ## 8. Deployment
 
