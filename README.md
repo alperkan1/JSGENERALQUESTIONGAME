@@ -64,14 +64,14 @@
 - As a first time user, I want to be able to re play with questions in a different sequence.
 - As a first time user, I want to be able to get my score.
 - As a first time user, I want to be able to see visually if the answers are correct or not.
-- As a first time user, I want to be able to hear if my answers are correct or not..
+- As a first time user, I want to be able to hear if my answers are correct or not.
 
 #### Returning User
 
-- As a returing user, I want to be able to change questions depending what the customer wants. 
-- As a returing user, I want to be able to get the quesions in a different order.
-- As a returing user, I want to be able to get my score.
-- As a returing user, I want to be abe to register a new user name.
+- As a returning user, I want to be able to change questions depending what the customer wants. 
+- As a returning user, I want to be able to get the quesions in a different order.
+- As a returning user, I want to be able to get my score.
+- As a returning user, I want to be abe to register a new user name.
 
 #### Site Owner 
 
@@ -333,7 +333,6 @@ On the landing page once you start the game you can track the your score.
 <details><summary>Score</summary>
 <img src="documents/pageimages/right.JPG">
 </details> 
-squince
 
 #### As a first time user, I want to be able register my username.
 
@@ -347,95 +346,53 @@ On the landing page the first thing you can do is to register your usrname.
 <img src="documents/pageimages/register.JPG">
 </details>   
 
-#### As a first time user, I want to find the social media links for the the community.
+#### As a first time user, I want to be able to re play with questions in a different sequence.
 
-On all pages on the footer you can see the social media links.
-
-| Element | Aim | Result |
-| ------- | ----|----------|
-|Social Media| The aim is to have links to all the social media links on every page| works on all pages|
-
-<details><summary>Footer</summary>
-<img src="documents/pageimages/footer.JPG">
-</details>
-
-#### As a first time user, I want to be able to give my feedback.
-
-On the survey page we can collect the feedback from our users.
+Once the game is over and you get your score then you can choose to play again. The questions will then be in a different sequence to the first time you played.
 
 | Element | Aim | Result |
 | ------- | ----|----------|
-|Survey| The aim is collect information and feedback| works on Surveypage|
+|Resart| The aim is to restart the game | works on all pages|
 
-<details><summary>Survey</summary>
-<img src="documents/pageimages/survey.JPG">
+<details><summary>Restart</summary>
+<img src="documents/pageimages/restart.JPG">
+</details> 
+
+#### As a returning user,  I want to be able to get the quesions in a different order.
+
+The questions chnage the sequence every time you play.
+
+<details><summary>Question</summary>
+<img src="documents/pageimages/question.JPG">
+</details> 
+
+#### As a returning user, I want to be able to change questions depending what the customer wants.
+
+By making a small chnage on the JS code it is very easy to implement questions that the user might want.
+
+#### As a returning user, I want to be able to get my score.
+
+The game add the score and at the end you get your final scre
+
+| Element | Aim | Result |
+| ------- | ----|----------|
+|Score| The aim is to give the user their score| works on all pages|
+
+<details><summary>Score</summary>
+<img src="documents/pageimages/right.JPG">
 </details>  
 
-#### As a first time user, I want to be able to contact the society.
+#### As a site owner, I want users to be able to have a easy and quick navigation from one question to another.
 
-On all pages the user can navigate to the footer and see the contact details.
-
-| Element | Aim | Result |
-| ------- | ----|----------|
-|Footer| The aim is to see the footer on all pages with the contact details and on all devices| works on all pages|
-
-<details><summary>Footer</summary>
-<img src="documents/pageimages/footer.JPG">
-</details>
-
-#### As a returning user, I want to be able to get the updated schedules for flights arriving and departing from Dublin Airport.
-
-On the landing page the schedule is updated for special flights that spotter would like to view.
+With easy to use buttons which have easy to read text aloowing the user to navigate.
 
 | Element | Aim | Result |
 | ------- | ----|----------|
-|Schedule| The aim is to give the most up to  date information on take off and landings at Dublin Airport| works on lading page|
+|Buttons| The aim is to have easy to navigate questions.| works on all pages|
 
-<details><summary>Flight times</summary>
-<img src="documents/pageimages/locationandschedule.JPG">
+<details><summary>Buttons</summary>
+<img src="documents/pageimages/question.JPG">
 </details> 
-
-#### As a returning user, I want to be able to see new images.
-
-We ask our site visitors to send us their images via e-mail allowing updates to the gallery page.
-
-
-<details><summary>Contact</summary>
-<img src="documents/pageimages/contactus.JPG">
-</details> 
-
-#### As a returning user, I want to be able to share images.
-
-We ask our site visitors to send us their images via e-mail. This allows updates to the gallery page.
-
-
-<details><summary>Contact</summary>
-<img src="documents/pageimages/contactus.JPG">
-</details> 
-
-#### As a returning user, I want to have the oportunity to get unique experiences.
-
-By collecting information on our survey page we will be creating a member database. With this we will be able to contact members and offer special tours.
-
-| Element | Aim | Result |
-| ------- | ----|----------|
-|Survey| The aim is collect information and feedback| works on Surveypage|
-
-<details><summary>Survey</summary>
-<img src="documents/pageimages/survey.JPG">
-</details>  
-
-#### As a site owner, I want to be able to contact users with news letters.
-
-By collecting information on our survey page, we will be creating a member database.
-
-| Element | Aim | Result |
-| ------- | ----|----------|
-|Survey| The aim is collect information and feedback| works on Surveypage|
-
-<details><summary>Survey</summary>
-<img src="documents/pageimages/survey.JPG">
-</details>
 
 ## 7. Bugs
 
